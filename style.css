@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(255, 0, 0);
+}
+
+.Card {
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgb(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: clamp(300px, 50vw, 450px);
+}
+
+#loginCard {
+    display: none;
+}
+
+.CardH1 {
+    text-align: center;
+    margin: 0;
+}
+
+.UsernameCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.PasswordCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.CardInput {
+    border: 1px solid red;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    box-shadow: 0 20px 50px rgb(0, 0, 0, 0.5);
+    min-width: 300px;
+    background-color: yellow;
+    margin: 0;
+}
+
+.Confirm {
+    border-radius: 20px;
+    border: 0;
+    padding: 10px;
+    background-color: red;
+    box-shadow: 0 20px 50px rgb(0, 0, 0, 0.5);
+    min-width: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 100ms ease;
+}
+
+.Confirm:hover {
+    scale: 1.15;
+}
+
+#ChangeSignUp {
+    color: blue;
+    cursor: pointer;
+}
+
+#ChangeLogin {
+    color: blue;
+    cursor: pointer;
+}
