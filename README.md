@@ -1,0 +1,1 @@
+website login system simple aja pake localstorage. Btw project ini 20% pakai ai buat debugging, dan di bagian localstorage nya karena gw masih kurang ngerti dibagian situ
